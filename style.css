@@ -1,0 +1,29 @@
+/* Reset default margins and center the clock */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling the clock display */
+.clock {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.clock:hover {
+    transform: scale(1.05);
+}
